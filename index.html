@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Debit Card</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card-container" id="card">
+            <div class="card-front">
+                <h5>UBL</h5>
+                <div class="chip"></div>
+                <p class="card-number">1234 5678 9012 3456</p>
+                <p class="card-holder">SAMAN KHAN </p>
+                <p class="expiry-date">Expires 01/25</p>
+            </div>
+            <div class="card-back">
+                <div class="stripe"></div>
+                <div class="cvv-container">
+                    <p>123</p>
+                </div>
+                <p class="help-text">For customer service, call +123-456-789</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
